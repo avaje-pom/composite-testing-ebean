@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.avaje.composite</groupId>
+  <artifactId>avaje-composite-testing-ebean</artifactId>
+  <version>4.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <scm>
+    <connection>scm:git:https://github.com/avaje-pom/composite-testing-ebean.git</connection>
+    <developerConnection>scm:git:https://github.com/avaje-pom/composite-testing-ebean.git</developerConnection>
+    <url>https://github.com/avaje-pom/composite-testing.git</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.avaje.composite</groupId>
+      <artifactId>avaje-composite-testing</artifactId>
+      <version>1.1-SNAPSHOT</version>
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.avaje.ebeanorm</groupId>
+      <artifactId>avaje-ebeanorm-agent</artifactId>
+      <version>[4,5)</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.avaje.ebeanorm</groupId>
+      <artifactId>avaje-ebeanorm-mocker</artifactId>
+      <version>[1,2)</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.avaje</groupId>
+      <artifactId>avaje-agentloader</artifactId>
+      <version>[2,3)</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>1.4.187</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
