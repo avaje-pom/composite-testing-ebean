@@ -18,7 +18,7 @@
   <scm>
     <connection>scm:git:https://github.com/avaje-pom/composite-testing-ebean.git</connection>
     <developerConnection>scm:git:https://github.com/avaje-pom/composite-testing-ebean.git</developerConnection>
-    <url>https://github.com/avaje-pom/composite-testing.git</url>
+    <url>https://github.com/avaje-pom/composite-testing-ebean.git</url>
     <tag>HEAD</tag>
   </scm>
 
