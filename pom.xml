@@ -9,6 +9,12 @@
   <version>4.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <parent>
+    <groupId>org.avaje</groupId>
+    <artifactId>avaje-parent</artifactId>
+    <version>2.1</version>
+  </parent>
+
   <scm>
     <connection>scm:git:https://github.com/avaje-pom/composite-testing-ebean.git</connection>
     <developerConnection>scm:git:https://github.com/avaje-pom/composite-testing-ebean.git</developerConnection>
